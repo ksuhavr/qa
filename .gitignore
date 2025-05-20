@@ -1,10 +1,10 @@
-.idea
-*.iml
-qa.iml
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea
+*.iml
+qa.iml
 
 ### Eclipse ###
 .apt_generated
