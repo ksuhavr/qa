@@ -282,21 +282,21 @@ public class Task {
 
     public static void shapeApp() {
         //прямоугольник
-        System.out.println(" ");
+        System.out.println();
         System.out.println("Прямоугольник:");
         Rectangle rectangle = new Rectangle(10, 20, "Зеленый", "Желтый");
         rectangle.setFillColor("Зеленый");
         rectangle.setBorderColor("Желтый");
         rectangle.printInfo();
         //треугольник
-        System.out.println(" ");
+        System.out.println();
         System.out.println("Треугольник:");
         Triangle triangle = new Triangle(9, 12, 8, 6, "Красный", "Оранжевый");
         triangle.setFillColor("Красный");
         triangle.setBorderColor("Оранжевый");
         triangle.printInfo();
         //круг
-        System.out.println(" ");
+        System.out.println();
         System.out.println("Круг:");
         Circle circle = new Circle(10, "Розовый", "Голубой");
         circle.setFillColor("Розовый");
