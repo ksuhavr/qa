@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         //Задание 2
-        Task.PhoneDirectory directory = Task.PhoneDirectory.createDirectory();
+        TaskPhoneDirectory.PhoneDirectory directory = TaskPhoneDirectory.PhoneDirectory.createDirectory();
         //вывод всех
         System.out.println("Весь справочник:");
         directory.printAll();
@@ -14,6 +14,6 @@ public class Main {
 
         //Задание 1
         System.out.println();
-        Task.StudentManagement.data();
+        TaskStudent.StudentManagement.data();
     }
 }
